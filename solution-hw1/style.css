@@ -68,18 +68,18 @@ h2{
 
 }
 
-#item-img, #image-detail{
+.item-img, #image-detail{
     border: 2px solid black;
 }
 
-#item-title{
+.item-title{
     color : black;
     margin: 0;
     text-decoration: underline;
 
 }
 
-#item-price{
+.item-price{
     color: black;
     margin: 0;
 
