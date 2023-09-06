@@ -3,25 +3,27 @@
   <meta charset="UTF-8">
   <link rel="stylesheet" href="style.css">
   <title>Shopping Cart</title>
-  
-  <body>
-    <!-- Logo -->
 
-    <a href="./product-gallery.html"><img src="../assets/logo/logo-01.svg" width="400" alt="Bun Bun Bake Shop Logo"></a>
-    <hr>
-    
+  <!-- Logo -->
+  <body>
+
+  <a href="./product-gallery.html"><img class = "logo" src="../assets/logo/logo-01.svg" alt="Bun Bun Bake Shop Logo"></a>
+  <hr>
+  
+  <header> 
     <!-- Defining Menu -->
 
     <h2><a id = "products-cart-menu" href="./product-gallery.html">PRODUCTS</a></h2>
     <h2><a id = "cart-cart-menu" href="./shopping-cart.html">CART</a></h2>
+  </header>
+  
 
-
-    <div id = "cart-details">
+    <main id = "cart-details">
     
     <!-- Cart item with remove button, description, and price -->
 
       <div>
-        <img src="../assets/products/original-cinnamon-roll.jpg" width="200" alt="Original Cinnamon Roll">
+        <img class = "cart-img" src="../assets/products/original-cinnamon-roll.jpg" alt="Original Cinnamon Roll">
         <br>
         <button class = "remove">Remove</button>
         <p>Original Cinnamon Roll
@@ -35,7 +37,7 @@
       <br>
 
       <div>
-        <img src="../assets/products/double-chocolate-cinnamon-roll.jpg" width="200" alt="Double Chocolate Cinnamon Roll">
+        <img class = "cart-img" src="../assets/products/double-chocolate-cinnamon-roll.jpg" alt="Double Chocolate Cinnamon Roll">
         <br>
         <button class = "remove">Remove</button>
         <p>Double Chocolate Cinnamon Roll
@@ -51,6 +53,6 @@
     <hr>
     <p>Total: $29.94</p>
     <button>Checkout</button>
-    </div>
+    </main>
 
   </body>

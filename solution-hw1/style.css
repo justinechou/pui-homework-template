@@ -1,17 +1,23 @@
+header, body{
+    font-family: 'PT Sans', Arial, Helvetica, sans-serif;
+}
+
+/* left aligning image with text*/
 .item {
     margin: auto;
     padding: 10px;
     text-align: left;
     width: 420px;
     font-size: 20px;
-
 }
 
 a{
     text-decoration: none;
 }
 
-.gallery{
+/* aligning menu and content in the center */
+
+.menu, .gallery{
     text-align: center;
 }
 
@@ -30,6 +36,14 @@ a{
     font-size: 20px;
     text-align: center;
     
+}
+/* making line thicker*/
+
+hr{
+    height: 5px;
+    color: rgb(0, 0, 0); 
+    background-color: rgb(0, 0, 0); 
+    border: none;
 }
 
 h2{
@@ -68,7 +82,23 @@ h2{
 
 }
 
-.item-img, #image-detail{
+#image-detail{
+    border: 2px solid black;
+    width: 600px; 
+
+}
+
+.item-img{
+    border: 2px solid black;
+    width: 400px; 
+}
+
+.logo{
+    width: 400px;
+}
+
+.cart-img{
+    width: 200px;
     border: 2px solid black;
 }
 
@@ -89,7 +119,7 @@ h2{
     display: inline-block;
     margin: 5px;
 }
-
+/* styling button*/
 button{
     background-color: yellow;
     font-size: 14px;
