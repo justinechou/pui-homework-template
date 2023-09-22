@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="style.css">
+  <script defer src="app.js"></script>
+  <title>Product Details</title>
+</head>
+
+  <body>
+  
+  <header class = "menu">
+    <div class = "nav-left">
+    <!-- Logo -->
+    <a href="./product-gallery.html"><img class = "logo" src="../assets/logo/logo-01.svg" alt="Bun Bun Bake Shop Logo"></a>
+    </div>
+    <div class = "nav-right">
+      <nav>
+      <!-- Nav Options -->
+        <h2><a id = "products-gallery-menu" href="./product-gallery.html">PRODUCTS</a></h2>
+        <h2><a id = "cart-gallery-menu" href="./shopping-cart.html">CART</a></h2>
+      </nav>
+      <!-- Line -->
+      <hr>
+      <h2 id="header-subtitle">Original cinnamon roll</h2>
+    </div>
+  </header>
+
+  <!-- defining class all items in the body -->
+    <main class = "body">
+      <!-- having image on left -->
+      <div class = "body-left">
+        <img id = "image-detail" src="../assets/products/original-cinnamon-roll.jpg" alt="Original Cinnamon Roll">
+      </div>
+      <!-- having rest of the info on right -->
+      <div class = "body-right">
+        <p id = "customize">Customize our delicious, <br> hand-made cinnamon roll to <br> your liking!</p>
+      <!-- separate class for dropdowns -->
+        <div class = "dropdowns">
+        <div class="dropdown-glaze">
+          <p id="glazing-head">Glazing:</p>
+          <select id="glazingSelection" class="box"></select>
+        </div>
+  
+        <div class="dropdown-pack">
+          <p id="pack-size-head">Pack Size:</p>
+          <select id="packSelection" class="box"></select>
+        </div>
+      </div>
+
+      <!--  class for price and add to cart button -->
+      <div class = "button-price">
+        <p id = "price">$ 2.49</p>
+        <button class="add-button">Add to Cart</button>
+      </div> 
+    </div>   
+
+    </main>
+  </body>
+</html>
