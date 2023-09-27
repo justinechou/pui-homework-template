@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="style.css">
+  <title>Shopping Cart</title>
+</head>
+
+  
+  <body>
+
+  <!-- Defining class for the header -->
+  <div class = "menu">
+  
+  <!-- separate header into 2 sections -->
+    <div class = "nav-left">
+    <!-- Logo -->
+    <a href="./product-gallery.html"><img class = "logo" src="../assets/logo/logo-01.svg" alt="Bun Bun Bake Shop Logo"></a>
+    </div>
+    <div class = "nav-right">
+      <nav>
+      <!-- Nav Options -->
+        <h2><a id = "products-cart-menu" href="./product-gallery.html">PRODUCTS</a></h2>
+        <h2><a id = "cart-cart-menu" href="./shopping-cart.html">CART</a></h2>
+      </nav>
+      <!-- Line -->
+      <hr>
+      <h2 id="header-subtitle">Shopping cart</h2>
+       <!-- defining class for entire cart body -->
+      <div class = "cart-body">
+        <!-- defining class for each image and remove button -->
+        <div class = "cart-item">
+          <div class = "img-rem">
+            <img class = "cart-img" src="../assets/products/original-cinnamon-roll.jpg" alt="Original Cinnamon Roll">
+            <br>
+            <button class = "remove">Remove</button>
+          </div>
+          <!-- adding classes for details of the cart and the price -->
+          <div class = "cart-details">
+            <p>Original Cinnamon Roll
+              <br>
+              Glazing: Keep original
+              <br>
+              Pack Size 1
+            </p>
+          </div>
+          <div class = "cart-price">
+            <p>$2.49</p>
+          </div>
+        </div>
+
+        <!-- similar structure for second item -->
+        <div class = "cart-item">
+          <div class = "img-rem">
+            <img class = "cart-img" src="../assets/products/double-chocolate-cinnamon-roll.jpg" alt="Double Chocolate Cinnamon Roll">
+            <br>
+            <button class = "remove">Remove</button>
+          </div>
+          <div class = "cart-details">
+            <p>Double Chocolate Cinnamon Roll
+              <br>
+              Glazing: Sugar Milk
+              <br>
+              Pack Size 6
+            </p>
+          </div>
+          <div class = "cart-price">
+            <p>$27.45</p>
+          </div>
+        </div>
+
+        <hr>
+        <!-- defining another class for the total cart price -->
+        <div class = "cart-total">
+          <p>Total</p>
+          <p>$29.94</p>
+        </div>
+
+        <!-- defining class for the checkout button -->
+        <div class = "checkout">
+          <button class = "checkout-button">Checkout</button>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  </body>
