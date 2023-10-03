@@ -70,7 +70,8 @@ const cartPackElement = newItem.element.querySelector('.item-pack');
 const cartPriceElement = newItem.element.querySelector('.item-price');
 
 // copy our newItem content over to the corresponding HTML elements
-cartImageElement.src = '../assets/products/' + newItem.type + "-cinnamon-roll.jpg";
+let itemLower = newItem.type.toLowerCase();
+cartImageElement.src = '../assets/products/' + newItem.type.toLowerCase() +"-cinnamon-roll.jpg";
 cartTypeElement.innerText = newItem.type + " Cinnamon Roll";
 cartGlazingElement.innerText = newItem.glazing;
 cartPackElement.innerText = "Pack Size: " + newItem.size;
