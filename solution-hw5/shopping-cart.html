@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="style.css">
+  <script type="module" defer src="main.js/app.js"></script>
+  <script type="module" defer src="main.js/rollData.js"></script>
+  <title>Shopping Cart</title>
+</head>
+
+  
+  <body>
+
+  <!-- Defining class for the header -->
+  <div class = "menu">
+  
+  <!-- separate header into 2 sections -->
+    <div class = "nav-left">
+    <!-- Logo -->
+    <a href="./product-gallery.html"><img class = "logo" src="../assets/logo/logo-01.svg" alt="Bun Bun Bake Shop Logo"></a>
+    </div>
+    <div class = "nav-right">
+      <nav>
+      <!-- Nav Options -->
+        <h2><a id = "products-cart-menu" href="./product-gallery.html">PRODUCTS</a></h2>
+        <h2><a id = "cart-cart-menu" href="./shopping-cart.html">CART</a></h2>
+      </nav>
+      <!-- Line -->
+      <hr>
+      <h2 id="cart-header">Our hand-made cinnamon rolls</h2>
+       <!-- defining class for entire cart body -->
+      <div class = "cart-body">
+        <!-- defining class for each image and remove button -->
+        <template id="cart-template">
+        <div class = "cart-item">
+          <div class = "img-rem">
+            <img class = "cart-img" src="../assets/products/original-cinnamon-roll.jpg" alt="Original Cinnamon Roll">
+            <br>
+            <button id = "remove">Remove</button>
+          </div>
+          <!-- adding classes for details of the cart and the price -->
+          <div class = "cart-details">
+            <div class = "item-type">Original Cinnamon Roll</div>
+             
+            <div class = "item-glazing">Glazing: Keep original</div>
+             
+            <div class = "item-pack">Pack Size 1</div>
+          </div>
+          <div class = "item-price">
+            <p>$2.49</p>
+          </div>
+        </div>
+        </template>
+      </div>
+
+        <hr>
+        <!-- defining another class for the total cart price -->
+        <div class = "cart-total">
+          <p>Total</p>
+          <p id = "total-price">$29.94</p>
+        </div>
+
+        <!-- defining class for the checkout button -->
+        <div class = "checkout">
+          <button class = "checkout-button">Checkout</button>
+        </div>
+    </div>
+  </div>
+
+  </body>
