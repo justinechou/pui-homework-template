@@ -9,7 +9,7 @@ const rollType = params.get("roll");
 
 //updating header for each page based on what type of roll is selected
 const headerElement = document.querySelector('#header-subtitle');
-headerElement.innerText = rollType + " Cinnamon Roll";
+headerElement.innerHTML = rollType + " Cinnamon Roll";
 
 //updating image for each page based on what type of roll is selected
 const rollImg = document.querySelector('#image-detail');
