@@ -1,0 +1,448 @@
+/* html {background-color: #1F1F1F} */
+body {
+    background-color: #1F1F1F !important;
+  }
+.navbar_right {
+	overflow: hidden;
+	position:fixed;
+	background-color: #1F1F1F;
+	top: 0; /* Position the navbar at the top of the page */
+  	width: 100%; /* Full width */
+}
+
+.navbar_right a {
+    color: #FFF;
+    font-family: DM Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+	float: right;
+	display: block;
+	text-align: center;
+	padding: 30px;
+	text-decoration: none;
+  }
+
+.navbar_left{
+	font-family: 'DM Sans';
+	font-style: normal;
+	font-weight: 250;
+	font-size: 20px;
+	float: left;
+	color: #E7B7F3;
+}
+
+.hero-section{
+    padding-top: 150px;
+    background-color: #1F1F1F;;
+}
+
+
+.header{
+	font-family: 'DM Sans';
+	font-style: bold;
+	font-weight: normal;
+	font-size: 64px;
+	line-height: 106.36%;
+	/* or 53px */
+
+	display: flex;
+	align-items: center;
+	text-align: center;
+
+	color: #E7B7F3;
+}
+
+.titles{
+	font-family: 'DM Sans', sans-serif;
+	font-style: bold;
+	font-weight: 200;
+	font-size: 32px;
+	line-height: 139.5%;
+	/* or 50px */
+
+	display: flex;
+	align-items: center;
+	letter-spacing: 0.005em;
+
+	color: #ffffff;
+
+}
+.description{
+	font-family: 'DM Sans', sans-serif;
+	font-style: normal;
+	color: #a1a1a1;
+	font-weight: 250;
+	font-size: 20px;
+	
+}
+
+
+.container{
+	/* margin-top: 150px; */
+    background: #1F1F1F;
+}
+
+.asuci{
+	margin-top: 100px;
+	text-align: center;
+	font-family: 'Lato', sans-serif;
+	font-style: normal;
+	font-weight: 250;
+	font-size: 20px;
+
+}
+
+.ctc{
+	margin-top: 100px;
+	text-align: center;
+	font-family: 'Lato', sans-serif;
+	font-style: normal;
+	font-weight: 250;
+	font-size: 20px;
+}
+
+.ibm{
+	margin-top: 100px;
+	text-align: center;
+	font-family: 'Lato', sans-serif;
+	font-style: normal;
+	font-weight: 250;
+	font-size: 20px;
+
+}
+
+.About_me{
+	color: #D9D9D9;
+    font-family: DM Sans;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding-top: 50px;
+
+}
+
+.About_description{
+	color: #D9D9D9;
+    font-family: DM Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+	display: flex;
+	align-items: center;
+	letter-spacing: 0.005em;
+
+}
+
+.About_description2{
+	font-family: 'Lato', sans-serif;
+	font-style: normal;
+	font-weight: 250;
+	font-size: 20px;
+	line-height: 139.5%;
+	/* or 28px */
+
+	display: flex;
+	align-items: center;
+	letter-spacing: 0.005em;
+
+	color: #000000;
+
+}
+.work{
+    color: #FFF;
+    font-family: DM Sans;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+	text-align: center;
+    padding: 50px;
+}
+
+.project_title{
+	color: #FFF;
+    font-family: DM Sans;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+
+	display: flex;
+	align-items: center;
+	letter-spacing: 0.005em;
+
+	
+
+}
+
+.project_description{
+	color: #FFF;
+    font-family: DM Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+	/* or 28px */
+
+	display: flex;
+	align-items: center;
+	letter-spacing: 0.005em;
+
+}
+
+.OCF{
+	font-family: 'Lato', sans-serif;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 36px;
+	line-height: 139.5%;
+	/* or 50px */
+
+	display: flex;
+	align-items: center;
+	letter-spacing: 0.005em;
+
+	color: #000000;
+
+}
+
+.OCF_description{
+	font-family: 'Lato', sans-serif;
+	font-style: normal;
+	font-weight: 250;
+	font-size: 20px;
+	line-height: 139.5%;
+	/* or 28px */
+
+	display: flex;
+	align-items: center;
+	letter-spacing: 0.005em;
+
+	color: #6C6C6C;
+
+}
+
+.sharetea{
+	font-family: 'Lato', sans-serif;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 36px;
+	line-height: 139.5%;
+	/* or 50px */
+
+	display: flex;
+	align-items: center;
+	letter-spacing: 0.005em;
+
+	color: #000000;
+
+}
+
+.sharetea_description{
+	font-family: 'Lato', sans-serif;
+	font-style: normal;
+	font-weight: 250;
+	font-size: 20px;
+	line-height: 139.5%;
+	/* or 28px */
+
+	display: flex;
+	align-items: center;
+	letter-spacing: 0.005em;
+
+	color: #6C6C6C;
+
+}
+
+button{
+    color: #000;
+    font-family: DM Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+
+	display: inline-flex;
+    padding: 10px 15px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+	cursor: pointer;
+
+    border-radius: 4px;
+    background: #E7B7F3;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.25);
+}
+.spacer1{
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+
+.spacer2{
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+
+.footer{
+	color: #FFF;
+    font-family: DM Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-top: 100px;
+    padding-bottom: 100px;
+    text-align: center;
+}
+
+.profile_picture{
+	text-align: center;
+}
+
+.fun_section{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+@media screen and (min-width: 640px) and (max-width: 1024px) {
+	/* medium screens */
+	.profile_picture{
+		width:100%;
+		max-width: 100%;
+		text-align: center;
+		height: auto;
+		margin: auto;
+		display: block;
+	}
+
+	.navbar_left{
+		font-size: 35px;
+	}
+
+	.navbar_right a{
+		font-size: 35px;
+	}
+
+	.container{
+		margin-top: 150px;
+	}
+
+	.header{
+		margin-top: 50px;
+		font-size: 70px;
+	}
+	.titles{
+		margin-top: 25px;
+		font-size: 50px;
+	}
+
+	.description{
+		margin-top: 25px;
+		font-size: 35px;
+	}
+
+	.asuci{
+		margin-top: 100px;
+		font-size: 35px;
+	}
+
+	.ctc{
+		margin-top: 50px;
+		font-size: 35px;
+	}
+
+	.ibm{
+		margin-top: 50px;
+		font-size: 35px;
+	}
+
+	.About_me{
+		margin-top: 100px;
+		font-size: 70px;
+
+	
+	}
+	
+	.About_description{
+		font-size: 35px;
+	}
+	
+	.About_description2{
+		font-size: 35px;
+	
+	}
+
+	.work{
+		margin-top: 100px;
+		font-size: 70px;
+	}
+
+	.spacer1{
+		margin-top: 100px;
+		margin-bottom: 100px;
+	}
+	
+	.spacer2{
+		margin-top: 150px;
+		margin-bottom: 150px;
+	}
+
+	.homeful{
+		font-size: 50px;
+		margin-top: 100px;
+		
+
+	
+	}
+	
+	.homeful_description{
+		font-size: 35px;
+	
+	}
+	
+	.OCF_pic{
+		margin-top: 100px;
+	}
+	.OCF{
+		font-size: 50px;
+		margin-top: 100px;
+	
+	}
+	
+	.OCF_description{
+		font-size: 35px;
+	
+	}
+	
+	.Sharetea_pic{
+		margin-top: 100px;
+	}
+	.sharetea{
+		font-size: 50px;
+		margin-top: 100px;
+	
+	}
+	
+	.sharetea_description{
+		font-size: 35px;
+	
+	}
+	
+	.footer{
+        color: #FFF;
+        font-family: DM Sans;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+		margin-top: 100px;
+	}
+
+   }
+
