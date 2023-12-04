@@ -2,6 +2,10 @@
 body {
     background-color: #1F1F1F !important;
   }
+a:hover {
+	color: #E7B7F3 !important;
+}
+
 .navbar_right {
 	overflow: hidden;
 	position:fixed;
@@ -30,12 +34,17 @@ body {
 	font-weight: 250;
 	font-size: 20px;
 	float: left;
-	color: #E7B7F3;
 }
 
-.hero-section{
+.navbar_left a{
+	color: #E7B7F3;
+	font-weight: 700;
+}
+
+
+#hero{
     padding-top: 150px;
-    background-color: #1F1F1F;;
+    background-color: #1F1F1F;
 }
 
 
@@ -45,7 +54,6 @@ body {
 	font-weight: normal;
 	font-size: 64px;
 	line-height: 106.36%;
-	/* or 53px */
 
 	display: flex;
 	align-items: center;
@@ -54,20 +62,18 @@ body {
 	color: #E7B7F3;
 }
 
-.titles{
+.tagline{
 	font-family: 'DM Sans', sans-serif;
 	font-style: bold;
 	font-weight: 200;
 	font-size: 32px;
 	line-height: 139.5%;
-	/* or 50px */
 
 	display: flex;
 	align-items: center;
 	letter-spacing: 0.005em;
 
 	color: #ffffff;
-
 }
 .description{
 	font-family: 'DM Sans', sans-serif;
@@ -75,42 +81,11 @@ body {
 	color: #a1a1a1;
 	font-weight: 250;
 	font-size: 20px;
-	
 }
 
 
 .container{
-	/* margin-top: 150px; */
     background: #1F1F1F;
-}
-
-.asuci{
-	margin-top: 100px;
-	text-align: center;
-	font-family: 'Lato', sans-serif;
-	font-style: normal;
-	font-weight: 250;
-	font-size: 20px;
-
-}
-
-.ctc{
-	margin-top: 100px;
-	text-align: center;
-	font-family: 'Lato', sans-serif;
-	font-style: normal;
-	font-weight: 250;
-	font-size: 20px;
-}
-
-.ibm{
-	margin-top: 100px;
-	text-align: center;
-	font-family: 'Lato', sans-serif;
-	font-style: normal;
-	font-weight: 250;
-	font-size: 20px;
-
 }
 
 .About_me{
@@ -163,6 +138,13 @@ body {
     padding: 50px;
 }
 
+.project_cover{
+	padding-right: 30px;
+	padding-bottom: 30px;
+	width: 100%;
+	max-width: 100%;
+	height: auto;
+}
 .project_title{
 	color: #FFF;
     font-family: DM Sans;
@@ -175,7 +157,9 @@ body {
 	align-items: center;
 	letter-spacing: 0.005em;
 
-	
+	width: 100%;
+	margin: auto; 
+	height: auto; 
 
 }
 
@@ -192,69 +176,9 @@ body {
 	align-items: center;
 	letter-spacing: 0.005em;
 
-}
-
-.OCF{
-	font-family: 'Lato', sans-serif;
-	font-style: normal;
-	font-weight: 500;
-	font-size: 36px;
-	line-height: 139.5%;
-	/* or 50px */
-
-	display: flex;
-	align-items: center;
-	letter-spacing: 0.005em;
-
-	color: #000000;
-
-}
-
-.OCF_description{
-	font-family: 'Lato', sans-serif;
-	font-style: normal;
-	font-weight: 250;
-	font-size: 20px;
-	line-height: 139.5%;
-	/* or 28px */
-
-	display: flex;
-	align-items: center;
-	letter-spacing: 0.005em;
-
-	color: #6C6C6C;
-
-}
-
-.sharetea{
-	font-family: 'Lato', sans-serif;
-	font-style: normal;
-	font-weight: 500;
-	font-size: 36px;
-	line-height: 139.5%;
-	/* or 50px */
-
-	display: flex;
-	align-items: center;
-	letter-spacing: 0.005em;
-
-	color: #000000;
-
-}
-
-.sharetea_description{
-	font-family: 'Lato', sans-serif;
-	font-style: normal;
-	font-weight: 250;
-	font-size: 20px;
-	line-height: 139.5%;
-	/* or 28px */
-
-	display: flex;
-	align-items: center;
-	letter-spacing: 0.005em;
-
-	color: #6C6C6C;
+	width: 100%;
+	margin: auto; 
+	height: auto; 
 
 }
 
@@ -276,15 +200,9 @@ button{
     border-radius: 4px;
     background: #E7B7F3;
     box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.25);
-}
-.spacer1{
-	margin-top: 50px;
-	margin-bottom: 50px;
-}
 
-.spacer2{
-	margin-top: 50px;
-	margin-bottom: 50px;
+	border: none;
+	border-radius: 15px;
 }
 
 .footer{
@@ -301,6 +219,9 @@ button{
 
 .profile_picture{
 	text-align: center;
+	width: 100%;
+	max-width: 100%;
+	height: auto;
 }
 
 .fun_section{
@@ -337,28 +258,13 @@ button{
 		margin-top: 50px;
 		font-size: 70px;
 	}
-	.titles{
+	.tagline{
 		margin-top: 25px;
 		font-size: 50px;
 	}
 
 	.description{
 		margin-top: 25px;
-		font-size: 35px;
-	}
-
-	.asuci{
-		margin-top: 100px;
-		font-size: 35px;
-	}
-
-	.ctc{
-		margin-top: 50px;
-		font-size: 35px;
-	}
-
-	.ibm{
-		margin-top: 50px;
 		font-size: 35px;
 	}
 
@@ -373,75 +279,43 @@ button{
 		font-size: 35px;
 	}
 	
-	.About_description2{
-		font-size: 35px;
-	
-	}
 
 	.work{
 		margin-top: 100px;
 		font-size: 70px;
 	}
-
-	.spacer1{
-		margin-top: 100px;
-		margin-bottom: 100px;
-	}
-	
-	.spacer2{
-		margin-top: 150px;
-		margin-bottom: 150px;
-	}
-
-	.homeful{
-		font-size: 50px;
-		margin-top: 100px;
-		
-
-	
-	}
-	
-	.homeful_description{
-		font-size: 35px;
-	
-	}
-	
-	.OCF_pic{
-		margin-top: 100px;
-	}
-	.OCF{
-		font-size: 50px;
-		margin-top: 100px;
-	
-	}
-	
-	.OCF_description{
-		font-size: 35px;
-	
-	}
-	
-	.Sharetea_pic{
-		margin-top: 100px;
-	}
-	.sharetea{
-		font-size: 50px;
-		margin-top: 100px;
-	
-	}
-	
-	.sharetea_description{
-		font-size: 35px;
-	
-	}
 	
 	.footer{
         color: #FFF;
         font-family: DM Sans;
-        font-size: 16px;
+        font-size: 24px;
         font-style: normal;
         font-weight: 500;
         line-height: normal;
 		margin-top: 100px;
+	}
+
+	button{
+		color: #000;
+		font-family: DM Sans;
+		font-size: 24px;
+		font-style: normal;
+		font-weight: 700;
+		line-height: normal;
+	
+		display: inline-flex;
+		padding: 25px 50px;
+		justify-content: center;
+		align-items: center;
+		gap: 10px;
+		cursor: pointer;
+	
+		border-radius: 4px;
+		background: #E7B7F3;
+		box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.25);
+	
+		border: none;
+		border-radius: 15px;
 	}
 
    }

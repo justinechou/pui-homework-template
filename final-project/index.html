@@ -1,104 +1,108 @@
 <!doctype html>
 <html lang="en">
 
-<!--
-WRITTEN BY: Justine Chou
-EMAIL: justinvc@uci.edu
--->
-
 <head>
   <meta charset="utf-8">
-  <meta name="author" content="Your name here">
-  <meta name="description" content="description of your page">
-   <!-- you would link to an external stylesheet here! -->
    <link rel="stylesheet" href="style.css"> 
    <link href='https://fonts.googleapis.com/css?family=DM Sans' rel='stylesheet'>
-   <!-- you would also link to Bootstrap here! -->
+   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
 
   <title>Justine Chou - Portfolio</title>
-
 </head>
-<body>
-    <div class="navbar_right">
-        <a href="mailto:jvchou15@gmail.com">Projects</a>
-        <a href="https://www.linkedin.com/in/justine-chou/">About</a>
-        <a href="https://www.linkedin.com/in/justine-chou/">Gallery</a>
-        <div class = "navbar_left">
-          <a>JUSTINE CHOU</a>
-        </div>
-      </div>
-    
-<div class="container">
 
-<div class = "hero-section">
+<body>
+<!-- Nav Bar -->
+    <div class="navbar_right">
+        <a href=#gallery>Gallery</a>
+        <a href=#about>About</a>
+        <a href=#projects>Projects</a>
+        <div class = "navbar_left">
+          <a href=#hero>JUSTINE CHOU</a>
+        </div>
+    </div>
+
+<div class="container">
+<!-- Hero Section -->
+<div id = "hero">
     <div class="row align-items-center">
       <div class="col-lg-4 col-sm-12"><img src="../assets/portfolio/Profile.png" alt="Justine Chou" class = "profile_picture"></div>
       <div class="col-lg-8 col-sm-12">
-        <h1 class="header">Justine Chou</h1>
-        <h2 class="titles">I turn problems into prospects by pushing pixels</h2>
+        <h3 class="tagline">Nice to meet you, I'm </h3>
+        <h1 class="header"><b>Justine Chou</b></h1>
+        <h2 class="tagline">I turn problems into prospects by pushing pixels</h2>
         <div class="description">MHCI '24 @ Carnegie Mellon <br> UX Design @ Nihon Kohden | Prev @ IBM</div>
       </div>
     </div>
 </div>
-
+<!-- Projects Section -->
+<div id = "projects">
     <div class="col"><h2 class="work">What I'm Most Proud Of</h2></div>
     <div class="row align-items-center">
-      <div class="col-lg-8 col-sm-12"><img src="../assets/portfolio/Dispo_Cover.png" class = "Homeful_pic" alt="Homeful Graphic" width="689" height="517"></div>
-      <div class="col-lg-4 col-sm-12">
+      <div class="col-lg-7 col-sm-12"><img src="../assets/portfolio/Dispo_Cover.png" class = "project_cover" alt="Dispo Graphic"></div>
+      <div class="col-lg-5 col-sm-12">
         <h2 class="project_title">dispo</h2>
         <p class="project_description">Encouraging proper disposal habits for a healthier planet</p>
         <br>
-        <button onclick="window.location.href='https://justinechou.myportfolio.com/homeful';">
+        <button class="project_button"onclick="window.location.href='https://autumn-request-94f.notion.site/Dispo-8344ae188aea49c99c405623f32bc3a9'">
           Check it out
         </button>
       </div>
     </div>
     
-    <p class = "spacer1"> </p>
+  <br>
 
     <div class="row align-items-center">
-        <div class="col-lg-8 col-sm-12"><img src="../assets/portfolio/IBM_Cover.png" class = "Homeful_pic" alt="Homeful Graphic" width="689" height="517"></div>
-        <div class="col-lg-4 col-sm-12">
+        <div class="col-lg-7 col-sm-12"><img src="../assets/portfolio/IBM_Cover.png" class = "project_cover" alt="IBM Graphic"></div>
+        <div class="col-lg-5 col-sm-12">
           <h2 class="project_title">TWC Mobile: Climate Change</h2>
           <p class="project_description">Using reliable data to inform users on climate change’s consequences and solutions</p>
           <br>
-          <button onclick="window.location.href='https://justinechou.myportfolio.com/homeful';">
+          <button onclick="window.location.href='https://autumn-request-94f.notion.site/IBM-x-The-Weather-Company-a96b38e853e249798f03dd3c714e337c'">
             Check it out
           </button>
         </div>
       </div>
 
-    <p class = "spacer2"> </p>
+    <br>
 
     <div class="row align-items-center">
-        <div class="col-lg-8 col-sm-12"><img src="../assets/portfolio/FYA_Cover.png" class = "Homeful_pic" alt="Homeful Graphic" width="689" height="517"></div>
-        <div class="col-lg-4 col-sm-12">
+        <div class="col-lg-7 col-sm-12"><img src="../assets/portfolio/FYA_Cover.png" class = "project_cover" alt="Find Your Anchor Graphic"></div>
+        <div class="col-lg-5 col-sm-12">
           <h2 class="project_title">Find Your Anchor: Launch Map</h2>
           <p class="project_description">Providing transparency to aid FYA’s mission in expanding mental health awareness  </p>
           <br>
-          <button onclick="window.location.href='https://justinechou.myportfolio.com/homeful';">
+          <button onclick="window.location.href='https://autumn-request-94f.notion.site/Find-Your-Anchor-Launch-Map-5f81797d17fc4a5facf3ca19b5943a7e'">
             Check it out
           </button>
         </div>
       </div>
-
+  </div>
+<!-- About Section -->
+  <div id = "about">
       <div class="row align-items-center">
         <div class="col-lg-8 col-sm-12">
-            <h1 class="About_me">Hi there! I'm Justine</h1>
+            <h1 class="About_me">Hi again! I'm Justine</h1>
             <p class="About_description">I'm a Master of Human Computer Interaction student at Carnegie Mellon University graduating in August 2024. In June 2023, I graduated from the University of California, Irvine, with a BS in Informatics with a Specialization in Human Computer Interaction and a Management Minor.
+            <br>
             <br>
             I'm a product designer who crafts digital, user friendly products & experiences with the purpose of social good. I believe that technology should be equally accessible for people of all backgrounds, and therefore construct impactful solutions with a human centered approach by understanding my users' needs, wants, and challenges. 
             <br>
+            <br>
             When I'm not designing, I enjoy drawing in my sketchbook, cooking new recipes, practicing the piano, and playing volleyball & badminton.</p>
         <br>
-          <button onclick="window.location.href='https://justinechou.myportfolio.com/homeful';">
+          <button onclick="window.location.href='https://drive.google.com/file/d/1IX0h-NhF9jRHH19Zj3l6AIXvMjmgV0Ys/view?usp=sharing'">
             View my Resume
           </button>
         </div>
-        <div class="col-lg-4 col-sm-12"><img src="../assets/portfolio/About_Me.png" class = "Homeful_pic" alt="Homeful Graphic" ></div>
+        <div class="col-lg-4 col-sm-12"><img src="../assets/portfolio/About_Me.png" class = "profile_picture" alt="Homeful Graphic" ></div>
     </div>
+  </div>
+  <br>
+  <br>
 
+<!-- Gallery Section -->
+  <!-- <div id = "gallery">
     <div class="col"><h2 class="work">Just For Fun</h2></div>
     <div class="fun_section">
         <div class="image"><img src="../assets/portfolio/ixd_a1.png" class = "Homeful_pic" alt="Homeful Graphic"></div>
@@ -106,6 +110,82 @@ EMAIL: justinvc@uci.edu
         <div class="image"><img src="../assets/portfolio/asuci_free.png" class = "Homeful_pic" alt="Homeful Graphic"></div>
         <div class="image"><img src="../assets/portfolio/asuci_halloween.png" class = "Homeful_pic" alt="Homeful Graphic"></div>
     </div>
+  </div> -->
+
+  <!-- Demo styles -->
+  <style>
+    html,
+    body {
+      position: relative;
+      height: 100%;
+    }
+
+    body {
+      background: #eee;
+      font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+      font-size: 14px;
+      color: #000;
+      margin: 0;
+      padding: 0;
+    }
+
+    .swiper-wrapper{
+
+    }
+
+    .swiper {
+      width: 100%;
+      height: 100%;
+    }
+
+    .swiper-slide {
+      text-align: center;
+      width: 25%;
+      max-width: 25%;
+      height: auto;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .swiper-slide img {
+      display: block;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+  </style>
+</head>
+
+<body>
+  <!-- Swiper -->
+  <div class="swiper mySwiper">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide"><img src="../assets/portfolio/ixd_a1.png" class = "graphic" alt="Steel City Grooves Graphic"></div>
+      <div class="swiper-slide"><img src="../assets/portfolio/ixd_a2.png" class = "Homeful_pic" alt="Homeful Graphic"></div>
+      <div class="swiper-slide"><img src="../assets/portfolio/asuci_free.png" class = "Homeful_pic" alt="Homeful Graphic"></div>
+      <div class="swiper-slide"><img src="../assets/portfolio/asuci_halloween.png" class = "Homeful_pic" alt="Homeful Graphic"></div>
+      <div class="swiper-slide"><img src="../assets/portfolio/Blaze_Pizza.png" class = "graphic" alt="Steel City Grooves Graphic"></div>
+      <div class="swiper-slide"><img src="../assets/portfolio/CTC_Banquet.png" class = "graphic" alt="Steel City Grooves Graphic"></div>
+      <div class="swiper-slide"><img src="../assets/portfolio/Notion_Workshop.png" class = "graphic" alt="Steel City Grooves Graphic"></div>
+      <div class="swiper-slide"><img src="../assets/portfolio/Restaurant_Guide.png" class = "graphic" alt="Steel City Grooves Graphic"></div>
+    </div>
+    <div class="swiper-button-next"></div>
+    <div class="swiper-button-prev"></div>
+  </div>
+
+  <!-- Swiper JS -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+  <!-- Initialize Swiper -->
+  <script>
+    var swiper = new Swiper(".mySwiper", {
+      navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+      },
+    });
+  </script>
 
     <div class="row align-items-center">
       <div class="col-12"><footer><div class="footer"> Made with 💜 + 🍵 by Justine Chou | © November 2023</div></footer></div>
@@ -113,6 +193,5 @@ EMAIL: justinvc@uci.edu
     </div>
   </div>
 </div>
-  
 </body>
 </html>
