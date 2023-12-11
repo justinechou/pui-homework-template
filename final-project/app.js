@@ -1,14 +1,27 @@
-// core version + navigation, pagination modules:
-import Swiper from 'swiper';
-import { Navigation, Pagination } from 'swiper/modules';
-// import Swiper and modules styles
-import 'swiper/css';
-import 'swiper/css/navigation';
-import 'swiper/css/pagination';
+// reveal functionality
 
-const swiper = new Swiper(".mySwiper", {
-    navigation: {
-      nextEl: ".swiper-button-next",
-      prevEl: ".swiper-button-prev",
-    },
-  });
+let reveal = {
+    distance: "100%",
+    duration: "1000",
+    ease: "ease-out", 
+    opacity: "0"
+}
+
+ScrollReveal().reveal(".reveal", reveal); 
+
+// swiper js functionality
+
+var swiper = new Swiper(".mySwiper", {
+    slidesPerView: 1,
+    spaceBetween: 30,
+    
+  navigation: {
+    nextEl: ".swiper-button-next",
+    prevEl: ".swiper-button-prev",
+  },
+  breakpoints: {
+    1024: {
+        slidesPerView: 4,
+        spaceBetween: 40, },
+      }
+});

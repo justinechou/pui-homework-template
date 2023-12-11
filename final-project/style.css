@@ -1,19 +1,21 @@
-/* html {background-color: #1F1F1F} */
 body {
     background-color: #1F1F1F !important;
-  }
+	position: relative;
+    height: 100%;
+}
 a:hover {
 	color: #E7B7F3 !important;
 }
 
+/* nav bar */
 .navbar_right {
 	overflow: hidden;
 	position:fixed;
 	background-color: #1F1F1F;
 	top: 0; /* Position the navbar at the top of the page */
   	width: 100%; /* Full width */
+	z-index: 1000;
 }
-
 .navbar_right a {
     color: #FFF;
     font-family: DM Sans;
@@ -27,7 +29,6 @@ a:hover {
 	padding: 30px;
 	text-decoration: none;
   }
-
 .navbar_left{
 	font-family: 'DM Sans';
 	font-style: normal;
@@ -35,19 +36,31 @@ a:hover {
 	font-size: 20px;
 	float: left;
 }
-
 .navbar_left a{
 	color: #E7B7F3;
 	font-weight: 700;
 }
 
+/* Adjusting padding of sections */
+#projects, #gallery{
+	padding-top: 50px;
+}
+
+#about{
+	padding-top: 100px;
+}
 
 #hero{
     padding-top: 150px;
-    background-color: #1F1F1F;
 }
 
-
+/* styling hero section */
+.profile_picture{
+	text-align: center;
+	width: 100%;
+	max-width: 100%;
+	height: auto;
+}
 .header{
 	font-family: 'DM Sans';
 	font-style: bold;
@@ -62,7 +75,7 @@ a:hover {
 	color: #E7B7F3;
 }
 
-.tagline{
+.subheader{
 	font-family: 'DM Sans', sans-serif;
 	font-style: bold;
 	font-weight: 200;
@@ -83,10 +96,7 @@ a:hover {
 	font-size: 20px;
 }
 
-
-.container{
-    background: #1F1F1F;
-}
+/* styling about section */
 
 .About_me{
 	color: #D9D9D9;
@@ -112,21 +122,7 @@ a:hover {
 
 }
 
-.About_description2{
-	font-family: 'Lato', sans-serif;
-	font-style: normal;
-	font-weight: 250;
-	font-size: 20px;
-	line-height: 139.5%;
-	/* or 28px */
-
-	display: flex;
-	align-items: center;
-	letter-spacing: 0.005em;
-
-	color: #000000;
-
-}
+/* styling projects section */
 .work{
     color: #FFF;
     font-family: DM Sans;
@@ -170,7 +166,6 @@ a:hover {
     font-style: normal;
     font-weight: 500;
     line-height: normal;
-	/* or 28px */
 
 	display: flex;
 	align-items: center;
@@ -205,6 +200,14 @@ button{
 	border-radius: 15px;
 }
 
+
+.fun_section{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
 .footer{
 	color: #FFF;
     font-family: DM Sans;
@@ -217,19 +220,33 @@ button{
     text-align: center;
 }
 
-.profile_picture{
-	text-align: center;
-	width: 100%;
-	max-width: 100%;
-	height: auto;
-}
+/* swiper*/
 
-.fun_section{
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    justify-content: space-between;
-}
+.swiper {
+	width: 100%;
+	height: 100%;
+  }
+
+  .swiper-slide {
+	text-align: center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+  }
+
+  .swiper-slide img {
+	display: block;
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+  }
+
+  .swiper-button-next, .swiper-button-prev{
+	color: #E7B7F3 !important;
+  }
+
+
+/* responsive on mobile */
 
 @media screen and (min-width: 640px) and (max-width: 1024px) {
 	/* medium screens */
@@ -240,6 +257,7 @@ button{
 		height: auto;
 		margin: auto;
 		display: block;
+		padding-top: 70px;
 	}
 
 	.navbar_left{
@@ -250,16 +268,24 @@ button{
 		font-size: 35px;
 	}
 
+	#projects, #about, #gallery{
+		padding-top: 30px;
+	}
+	
+	#hero{
+		padding-top: 55px;
+	}
+
 	.container{
 		margin-top: 150px;
 	}
 
 	.header{
-		margin-top: 50px;
+		margin-top: 20px;
 		font-size: 70px;
 	}
-	.tagline{
-		margin-top: 25px;
+	.subheader{
+		margin-top: 20px;
 		font-size: 50px;
 	}
 
@@ -271,14 +297,11 @@ button{
 	.About_me{
 		margin-top: 100px;
 		font-size: 70px;
-
-	
 	}
 	
 	.About_description{
 		font-size: 35px;
 	}
-	
 
 	.work{
 		margin-top: 100px;
@@ -295,10 +318,24 @@ button{
 		margin-top: 100px;
 	}
 
+	.project_title{
+		font-size: 40px;
+	}
+
+	.project_description{
+		font-size: 30px;
+	}
+
+	.project_cover{
+		padding-top: 50px;
+		width: 100%;
+		max-width: 100%;
+	}
+
 	button{
 		color: #000;
 		font-family: DM Sans;
-		font-size: 24px;
+		font-size: 24px !important; 
 		font-style: normal;
 		font-weight: 700;
 		line-height: normal;
@@ -316,6 +353,13 @@ button{
 	
 		border: none;
 		border-radius: 15px;
+
+		width: 95%;
+		max-width: 100%;
+	}
+
+	.footer{
+		font-size: 30px;
 	}
 
    }
